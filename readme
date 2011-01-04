@@ -1,3 +1,8 @@
+    git clone git://github.com/happypeter/taiyuan-note.git
+
+    git pull
+  
+    
     git init
     ls -a
     git add readme
@@ -5,7 +10,6 @@
 
   sudo apt-get install git-core
   525  sudo apt-get install tig
-  528  git://github.com/happypeter/taiyuan-note.git
   537  git clone git://github.com/happypeter/taiyuan-note.git
   sudo apt-get install git-core
   525  sudo apt-get install tig
