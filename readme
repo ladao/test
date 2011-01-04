@@ -4,7 +4,38 @@
 
 chu shi hua 
  git add readme
-
+ 
 tian jia
 
 git commit -a -m "hello qdj"
+
+  sudo apt-get install git-core
+  525  sudo apt-get install tig
+  528  git://github.com/happypeter/taiyuan-note.git
+  537  git clone git://github.com/happypeter/taiyuan-note.git
+  sudo apt-get install git-core
+  525  sudo apt-get install tig
+  526  ping www.nuc.eud.cn
+  527  ls
+  537  git clone git://github.com/happypeter/taiyuan-note.git
+  538  gedit note
+  539  ls
+  542  cat taiyuan-note
+  546  gedit note.md
+  549  file taiyuan-note
+  550  cd taiyuan-note/
+  552  gedit note.md
+  554  sudo apt-get install vim
+  555  vim note
+  538  gedit note
+  539  ls
+  541  gedit taiyuan-note
+  542  cat taiyuan-note
+  543  cd taiyuan-note
+  545  note.md
+  546  gedit note.md
+  547  cd ..
+  552  gedit note.md
+  554  sudo apt-get install vim
+  555  vim note
+
