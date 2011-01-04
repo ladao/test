@@ -1,13 +1,7 @@
- #git
-  745  git init
-  746  ls -a
-
-chu shi hua 
- git add readme
- 
-tian jia
-
-git commit -a -m "hello qdj"
+    git init
+    ls -a
+    git add readme
+    git commit -a -m "hello qdj"
 
   sudo apt-get install git-core
   525  sudo apt-get install tig
