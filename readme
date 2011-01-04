@@ -7,4 +7,4 @@ chu shi hua
 
 tian jia
 
-get commit -a -m "hello qdj"
+git commit -a -m "hello qdj"
