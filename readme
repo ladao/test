@@ -1,3 +1,7 @@
+ cd /home/akaedu/
+ ls -a
+ vim ./gitconfig
+ 
  git config --global user.name "qdj"  
 
  1342  vim a
