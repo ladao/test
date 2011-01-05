@@ -1,3 +1,5 @@
+ git config --global user.name "qdj"  
+
  1342  vim a
  1343  vim b
  1345  diff a b -u >ab.diff
