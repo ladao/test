@@ -1,5 +1,19 @@
-    git clone git://github.com/happypeter/taiyuan-note.git
+ 1342  vim a
+ 1343  vim b
+ 1345  diff a b -u >ab.diff
+ 1346  ls
+ 1347  cat ab.diff 
+ 1348  patch a <ab.diff 
+ 1349  cat a
+ 1350  cat b
+ 1351  patch a <ab.diff 
+ 1352  cat a
+ 1353  cat b
 
+   
+   linus git
+  
+    git clone git://github.com/happypeter/taiyuan-note.git
     git pull
   
     
