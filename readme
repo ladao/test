@@ -1,24 +1,27 @@
- cd /home/akaedu/
- ls -a
- vim ./gitconfig
+
+
+# cd /home/akaedu/
+##  ls -a
+# vim ./gitconfig
 #change ~/.gitconfig
  
- git config --global user.name "qdj"  
-
- 1342  vim a
- 1343  vim b
- 1345  diff a b -u >ab.diff
- 1346  ls
- 1347  cat ab.diff 
- 1348  patch a <ab.diff 
- 1349  cat a
- 1350  cat b
- 1351  patch a <ab.diff 
- 1352  cat a
- 1353  cat b
+# git config --global user.name "qdj"  
+#diff
+##patch
+  vim a
+  vim b
+  diff a b -u >ab.diff
+  ls
+  cat ab.diff 
+  patch a <ab.diff 
+  cat a
+  cat b
+  patch a <ab.diff 
+  cat a
+  cat b
 
    
-   linus git
+  # linus git
   
     git clone git://github.com/happypeter/taiyuan-note.git
     git pull
@@ -29,32 +32,68 @@
     git add readme
     git commit -a -m "hello qdj"
 
-  sudo apt-get install git-core
-  525  sudo apt-get install tig
-  537  git clone git://github.com/happypeter/taiyuan-note.git
-  sudo apt-get install git-core
-  525  sudo apt-get install tig
-  526  ping www.nuc.eud.cn
-  527  ls
-  537  git clone git://github.com/happypeter/taiyuan-note.git
-  538  gedit note
-  539  ls
-  542  cat taiyuan-note
-  546  gedit note.md
-  549  file taiyuan-note
-  550  cd taiyuan-note/
-  552  gedit note.md
-  554  sudo apt-get install vim
-  555  vim note
-  538  gedit note
-  539  ls
-  541  gedit taiyuan-note
-  542  cat taiyuan-note
-  543  cd taiyuan-note
-  545  note.md
-  546  gedit note.md
-  547  cd ..
-  552  gedit note.md
-  554  sudo apt-get install vim
-  555  vim note
+#sudo 
+ sudo apt-get install git-core
+
+ sudo apt-get install tig
+
+ git clone git://github.com/happypeter/taiyuan-note.git
+
+ sudo apt-get install git-core
+
+ sudo apt-get install tig
+
+ ping www.nuc.eud.cn
+
+#git clone
+  git clone git://github.com/happypeter/taiyuan-note.git
+
+  gedit note
+
+  cat taiyuan-note
+
+  gedit note.md
+
+  file taiyuan-note
+
+  cd taiyuan-note/
+
+  gedit note.md
+
+  sudo apt-get install vim
+
+  vim note
+
+  gedit note
+
+  ls
+
+  gedit taiyuan-note
+
+  cat taiyuan-note
+
+  cd taiyuan-note
+
+  note.md
+
+  gedit note.md
+
+  cd ..
+
+  gedit note.md
+
+  sudo apt-get install vim
+
+  vim note
+
+#go away
+       sudo dpkg --purge sox
+      
+       dpkg -l|grep l
+       dpkg -l|grep git
+       dpkg -l|grep tig
+       dpkg -l|grep tigk
+       dpkg -l|grep vim
+      
+       totem git-config.wav 
 
