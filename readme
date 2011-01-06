@@ -1,6 +1,8 @@
+ #markdown
+  markdown readme >a.html
+  firefox a.html
+  vim readme
 
-
-# cd /home/akaedu/
 ##  ls -a
 # vim ./gitconfig
 #change ~/.gitconfig
