@@ -40,7 +40,7 @@ When you're done:
   cd .ssh/
   ls
   cat id_dsa.pub |xclip -sel clip
-
+  
   
    sudo apt-get install xclip
    vim readme
@@ -52,7 +52,9 @@ When you're done:
   ssh-keygen -t dsa
   sudo apt-get install xclip
   cat /home/akaedu/.ssh/id_dsa.pub| xclip -sel clip
-  
+  ssh git@github.com
+  ssh  -v git@github.com
+
   git config --global user.email qdj123321@126.com
   git remote add origin git@github.com:ladao/linus.git
   git push origin master
