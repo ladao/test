@@ -1,3 +1,63 @@
+  Global setup:
+
+ Download and install Git
+  git config --global user.name "Your Name"
+  git config --global user.email qdj123321@126.com
+  Add your public key
+        
+
+Next steps:
+
+  mkdir linus
+  cd linus
+  git init
+  touch README
+  git add README
+  git commit -m 'first commit'
+  git remote add origin git@github.com:ladao/linus.git
+  git push origin master
+      
+
+Existing Git Repo?
+
+  cd existing_git_repo
+  git remote add origin git@github.com:ladao/linus.git
+  git push origin master
+      
+
+Importing a Subversion Repo?
+
+  Click here
+      
+
+When you're done:
+
+  Continue
+
+
+ 
+  cd 
+  cd .ssh/
+  ls
+  cat id_dsa.pub |xclip -sel clip
+
+  
+   sudo apt-get install xclip
+   vim readme
+   ssh git@github.com
+   ssh  -v git@github.com
+ 
+
+  rm -rf .ssh/
+  ssh-keygen -t dsa
+  sudo apt-get install xclip
+  cat /home/akaedu/.ssh/id_dsa.pub| xclip -sel clip
+  
+  git config --global user.email qdj123321@126.com
+  git remote add origin git@github.com:ladao/linus.git
+  git push origin master
+
+
  #markdown
   markdown readme >a.html
   firefox a.html
